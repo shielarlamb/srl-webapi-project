@@ -1,0 +1,99 @@
+{
+	"status": 200,
+	"holidays": [{
+		"name": "Pearl Harbor Remembrance Day",
+		"date": "2016-12-07",
+		"observed": "2016-12-07",
+		"public": false
+	}, {
+		"name": "Immaculate Conception of the Virgin Mary",
+		"date": "2016-12-08",
+		"observed": "2016-12-08",
+		"public": false
+	}, {
+		"name": "Christmas Eve",
+		"date": "2016-12-24",
+		"observed": "2016-12-24",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-24",
+		"observed": "2016-12-24",
+		"public": false
+	}, {
+		"name": "Christmas Day",
+		"date": "2016-12-25",
+		"observed": "2016-12-26",
+		"public": true
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-25",
+		"observed": "2016-12-25",
+		"public": false
+	}, {
+		"name": "First Day of Kwanzaa",
+		"date": "2016-12-26",
+		"observed": "2016-12-26",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-26",
+		"observed": "2016-12-26",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-27",
+		"observed": "2016-12-27",
+		"public": false
+	}, {
+		"name": "Second Day of Kwanzaa",
+		"date": "2016-12-27",
+		"observed": "2016-12-27",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-28",
+		"observed": "2016-12-28",
+		"public": false
+	}, {
+		"name": "Third Day of Kwanzaa",
+		"date": "2016-12-28",
+		"observed": "2016-12-28",
+		"public": false
+	}, {
+		"name": "Fourth Day of Kwanzaa",
+		"date": "2016-12-29",
+		"observed": "2016-12-29",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-29",
+		"observed": "2016-12-29",
+		"public": false
+	}, {
+		"name": "Fifth Day of Kwanzaa",
+		"date": "2016-12-30",
+		"observed": "2016-12-30",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-30",
+		"observed": "2016-12-30",
+		"public": false
+	}, {
+		"name": "Hanukkah",
+		"date": "2016-12-31",
+		"observed": "2016-12-31",
+		"public": false
+	}, {
+		"name": "New Year's Eve",
+		"date": "2016-12-31",
+		"observed": "2016-12-31",
+		"public": true
+	}, {
+		"name": "Sixth Day of Kwanzaa",
+		"date": "2016-12-31",
+		"observed": "2016-12-31",
+		"public": false
+	}]
+}

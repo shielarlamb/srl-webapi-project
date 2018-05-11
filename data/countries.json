@@ -1,0 +1,239 @@
+{
+	"countries": [
+		{
+			"name": "AR - Argentina"
+			},
+		{
+			"name": "AO - Angola"
+			},
+		{
+			"name": "AT - Austria"
+			},
+		{
+			"name": "AU - Australia"
+			},
+		{
+			"name": "AW - Aruba"
+			},
+		{
+			"name": "AX - Åland Islands"
+			},
+		{
+			"name": "BA - Bosnia and Herzengovina"
+			},
+		{
+			"name": "BO - Bolivia"
+			},
+		{
+			"name": "BG - Bulgaria"
+			},
+		{
+			"name": "BR - Brazil"
+			},
+
+		{
+			"name": "BS - The Bahamas"
+			},
+		{
+			"name": "CA - Canada"
+			},
+		{
+			"name": "CH - Switzerland"
+			},
+		{
+			"name": "CN - China"
+			},
+		{
+			"name": "CO - Colombia"
+			},
+		{
+			"name": "CR - Costo Rica"
+			},
+		{
+			"name": "CU - Cuba"
+			},
+		{
+			"name": "CZ - Czech Republic"
+			},
+		{
+			"name": "DE - Germany"
+			},
+		{
+			"name": "DK - Denmark"
+			},
+		{
+			"name": "DO - Dominican Republic"
+			},
+		{
+			"name": "EC -Ecuador"
+			},
+		{
+			"name": "ES - Spain"
+			},
+		{
+			"name": "I - Finland"
+			},
+		{
+			"name": "FR - France"
+			},
+		{
+			"name": "GB - United Kingdom"
+			},
+		{
+			"name": "GB-ENG - England"
+			},
+		{
+			"name": "GB-NIR - Northern Ireland"
+			},
+		{
+			"name": "GB-SCT - Scotland"
+			},
+		{
+			"name": "GB-WLS - Wales"
+			},
+	{
+			"name": "GR - Greece"
+			},
+		{
+			"name": "GT - Guatemala"
+			},
+		{
+			"name": "HK - Hong Kong"
+			},
+		{
+			"name": "HN - Honduras"
+			},
+		{
+			"name": "HR - Croatia"
+			},
+		{
+			"name": "HU - Hungary"
+			},
+			{
+			"name": "ID - Indonesia"
+			},
+		{
+			"name": "IE - Ireland"
+			},
+		{
+			"name": "IN - India"
+			},
+		{
+			"name": "IL - Israel"
+			},
+		{
+			"name": "IS - Iceland"
+			},
+		{
+			"name": "IT - Italy"
+			},
+		{
+			"name": "JP - Japan"
+			},
+		{
+			"name": "KZ - Kazakhstan"
+			},
+		{
+			"name": "LS - Lesotho"
+			},
+			{
+			"name": "LU - Luxembourg"
+			},
+		{
+			"name": "MG - Madagascar"
+			},
+		{
+			"name": "MQ - Martinique"
+			},
+		{
+			"name": "MT - Malta"
+			},
+		{
+			"name": "MU - Mauritius"
+			},
+		{
+			"name": "MX - Mexico"
+			},
+			{
+			"name": "MZ - Mozambique"
+			},
+		{
+			"name": "NG - Nigeria"
+			},
+		{
+			"name": "NL - Netherlands"
+			},
+		{
+			"name": "NO - Norway"
+			},
+		{
+			"name": "PE - Peru"
+			},
+		{
+			"name": "PK - Pakistan"
+			},
+			{
+			"name": "PH - Philippines"
+			},
+		{
+			"name": "PL - Poland"
+			},
+		{
+			"name": "PR - Puerto Rico"
+			},
+		{
+			"name": "PT -Portugal"
+			},
+		{
+			"name": "PY - Paraguay"
+			},
+		{
+			"name": "RE Réunion"
+			},
+			{
+			"name": "RO - Romania"
+			},
+		{
+			"name": "RU - Russia"
+			},
+		{
+			"name": "SC - Seychelles"
+			},
+		{
+			"name": "SE - Sweden"
+			},
+		{
+			"name": "SG - Singapore"
+			},
+		{
+			"name": "SI - Slovenia"
+			},
+			{
+			"name": "ST - Sao Tome and Principe"
+			},
+		{
+			"name": "SK - Slovakia"
+			},
+		{
+			"name": "TN - Tunisia"
+			},
+		{
+			"name": "US - United States"
+			},
+		{
+			"name": "UY - Uruguay"
+			},
+		{
+			"name": "VE - Venezuela"
+			},
+			{
+			"name": "ZA - South Africa"
+			},
+		{
+			"name": "ZW - Zimbabwe"
+			}
+	
+	]
+}
+
+
