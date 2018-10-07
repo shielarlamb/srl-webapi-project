@@ -29,7 +29,7 @@ $(() => {
 			<h4>Instructions</h4>
 			<ul><li>Country and Year are required fields.</li>
 				<li>Use the country codes from the table below.</li>
-				<li>Use 1-4 digit year. From year 1 to year 2016.</li>
+				<li>Use 1-4 digit year. From year 1 up to the year before the current year.</li>
 				<li>Use numbers 1-12 in the month field.</li>
 				<li>Use numbers 1-31 for days field.</li>
 				<li>Month and Day fields are optional.</li>
