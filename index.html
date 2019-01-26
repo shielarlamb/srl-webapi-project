@@ -2,27 +2,79 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Holidays of the World</title>
-	<link rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Holidays of the World</title>
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <section id="section">
+        <div id="htmlData">
+             <div id="currDate"></div>
+            <h1>Historical Holidays of the World!</h1>
+            
+            <section id="introd">
+               
+                <h3>About this page</h3>
+                <p>Search for historical holidays from year 1 to year <strong id="pastYear"></strong>.  See instructions below for details. </p>
+            </section>
+            <div id="instrucions">
+                <h4>Instructions</h4>
+                <ul>
+                    <li>Country and Year are required fields.</li>
+                    <li>Use the country codes from the table below.</li>
+                    <li>Use 1-4 digit year. From year 1 up to the year before the current year.</li>
+                    <li>Use numbers 1-12 in the month field.</li>
+                    <li>Use numbers 1-31 for days field.</li>
+                    <li>Month and Day fields are optional.</li>
+                    <li>If Day is filled in and Month is blank, month and day fields will be ignored and will only read Country and Year data.</li>
+                </ul>
+                <p class="intro">Button "Show All Holidays" will display holidays for the specified country, year, month, day and their public status:</p>
+                <ol>
+                    <li>Fill in Country, Year and/or Month and Day fields.</li>
+                    <li>Click "Show All Holidays".</li>
+                    <p>Note: If "Month" and/or "Day" fields are filled in, this will display both public and non-public holiday for the specified country, year, month and/or day. </p>
+                </ol>
+                <p class="intro">Button "Show Public Only" will only display public holidays for the specified country, year, month and/or day:</p>
+                <ol>
+                    <li>Country, Year and/or Month and Day fields</li>
+                    <li>Click "Show Public Only".</li>
+                    <p>Note: If "Month" and/or "Day" fields are filled in, this will display the public holiday for the specified country, year, month and/or day. </p>
+                </ol>
+            </div>
+            <h2>Input field</h2>
+            <div id="api-input">
+                <label>Country: *</label>
+                <input type="text" name="country" id="country-api" required>
+                <label>Year: *</label>
+                <input type="number" name="year" id="year-api" required min="1" max="2017">
+                <label>Month: </label>
+                <input type="number" name="month" id="month-api" min="1" max="12">
+                <label>Day: </label>
+                <input type="number" name="day" id="day-api" min="1" max="12">
+                <div id="buttons-div">
+                    <button id="country-year-public">Show All Holidays</button>
+                    <button id="true">Show Public Only</button>
+                    <!--<button id="day-button">With Day</button>-->
+                </div>
 
-	<section id="section">
-		<div id="htmlData"></div>
-		<article id="countries-article"></article>
-		<footer>
-			<br> Copyright &copy; 2018
-			<br><a href="mailto:shiela@lamb.com">Shiela&#64;Lamb.com.</a>
-		</footer>
-	</section>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" language="Javascript"></script>
-	<!-- JS uses jQuery! -->
-	<script src="js/script.js"></script>
+                <div id="output"></div>
+                <div id="output-2"></div>
+            </div>
+        </div>
+        <article id="countries-article"></article>
+        <footer>
+            <br> Copyright &copy; 2018
+            <br><a href="mailto:shiela@lamb.com">Shiela&#64;Lamb.com.</a>
+        </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" language="Javascript"></script>
+    <!-- JS uses jQuery! -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
