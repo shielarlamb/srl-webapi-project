@@ -18,7 +18,20 @@ $(() => {
     	}*/
 
     loadHtml();
+    loadDates();
 
+    
+        function loadDates() {
+            const d = new Date();
+            const currYear = d.getFullYear();
+            d.setFullYear(currYear);
+            console.log(d);
+
+            $("#currDate").append(d);
+
+            $("#currYear").append(currYear);
+
+        }
 
 
     function loadHtml() {

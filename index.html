@@ -19,12 +19,13 @@
                 <h3>About this page</h3>
                 <p>Search for historical holidays from year 1 to year <span id="pastYear"></span>.  See instructions below for details. </p>
             </section>
+            <p>Note: Free accounts are limited to last year's historical data. </p>
             <div id="instrucions">
                 <h4>Instructions</h4>
                 <ul>
                     <li>Country and Year are required fields.</li>
                     <li>Use the country codes from the table below.</li>
-                    <li>Use 1-4 digit year. From year 1 up to the year before the current year.</li>
+                    <li>Use four digit for the last year.</li>
                     <li>Use numbers 1-12 in the month field.</li>
                     <li>Use numbers 1-31 for days field.</li>
                     <li>Month and Day fields are optional.</li>
@@ -48,7 +49,7 @@
                 <label>Country: *</label>
                 <input type="text" name="country" id="country-api" required>
                 <label>Year: *</label>
-                <input type="number" name="year" id="year-api" required min="1" max="2017">
+                <input type="number" name="year" id="year-api" required min="1">
                 <label>Month: </label>
                 <input type="number" name="month" id="month-api" min="1" max="12">
                 <label>Day: </label>
@@ -66,8 +67,7 @@
         </div>
         <article id="countries-article"></article>
         <footer>
-            <br> Copyright &copy; 2018
-            <br><a href="mailto:shiela@lamb.com">Shiela&#64;Lamb.com.</a>
+              <br> Copyright &copy; <span id="currYear"></span> All rights Reserved.<a href="mailto:shiela_lamb@live.com"> Shiela_Lamb&#64;live.com</a>
         </footer>
     </section>
 
